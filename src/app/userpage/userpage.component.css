@@ -1,0 +1,8 @@
+.user{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    width: 100px;
+    height:100px;
+    background-color: red;
+}

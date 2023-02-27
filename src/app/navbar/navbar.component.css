@@ -1,0 +1,16 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 7.5vh;
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+}
+.navitem{
+    align-self: flex-start;
+}
+.navbtn{
+    padding: 0 1vw;
+}
