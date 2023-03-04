@@ -3,3 +3,12 @@ body{
     padding: 0;
     background-color: #CBCBCB;
 }
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../src/assets/font/Poppins-Regular.ttf');
+}
+
+* {
+    font-family: 'Poppins';
+}

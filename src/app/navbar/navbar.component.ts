@@ -12,11 +12,11 @@ export class NavbarComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    document.getElementById('first')?.classList.add('selected')
   }
 
   login(){
     console.log('login');
-    
   }
 
 }

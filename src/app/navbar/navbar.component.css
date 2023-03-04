@@ -13,37 +13,37 @@
 }
 .navlogo{
     border: 2px solid #fff;
-    margin-top: 5vh;
-    width: 7.5vh;
-    height: 7.5vh;
+    margin-top: 10vh;
+    width: 15vh;
+    height: 15vh;
 }
 .nav-menu{
     display: flex;
     flex-direction: column;
-    margin-top: 10vh 10vh;
+    margin-top:-15vh;
 }
 .nav-item{
     background-color: transparent;
-    border: 2px solid #fff;
     color: #fff;
     font-size: 20px;
-    padding: 1vh 1vw;
+    padding: 1vh 2vw;
     margin: 1vh 1vh;
-    animation: sideflow 2s forwards;
 }
-@keyframes sideflow {
-    0%{
-        margin-left: -20vw;
-    }
-    100%{
-        margin-left: 0;
-    }
+
+.selected{
+    font-weight: 500;
+    color: #ffc42b;
+    border-right:4px solid #ffc42b;
+    border-radius: 4px;
+    
 }
+
 .navbtn{
     background-color: transparent;
     border: 2px solid #fff;
     margin-bottom: 10vh;
     color: #fff;
     font-size: 20px;
-    padding: 1vh 1vw;
+    padding: 1vh 2vw;
+    cursor: pointer;
 }
