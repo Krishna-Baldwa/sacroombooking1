@@ -28,7 +28,9 @@
     font-size: 20px;
     padding: 1vh 2vw;
     margin: 1vh 1vh;
+    cursor: pointer;
 }
+
 
 .selected{
     font-weight: 500;

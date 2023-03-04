@@ -8,11 +8,18 @@ import { Component, OnInit } from '@angular/core';
 export class NavbarComponent implements OnInit {
 
   navbartext:string = "Login" 
+  prevurl!:string
 
   constructor() { }
 
   ngOnInit(): void {
-    document.getElementById('first')?.classList.add('selected')
+    
+  }
+
+  navigate(url:string){
+    document.getElementById(url)?.classList.add('selected')
+    document.getElementById(this.prevurl)?.classList.remove('selected')
+    this.prevurl = url
   }
 
   login(){
