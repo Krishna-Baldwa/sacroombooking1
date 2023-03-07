@@ -6,6 +6,11 @@
     display: flex;
     flex-direction: column;
 }
+.title{
+    padding:2vh 2vw;
+    font-size: 30px;
+    font-weight: 700;
+}
 .info-card{
     border-radius: 10px;
     width: 70%;
@@ -20,22 +25,56 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top:10vh ;
 }
 .admin-card{
     border-radius: 10px;
     width: 70%;
-    height: 7.5vh;
+    height: max-content;
     margin: 2vh 0;
-    border: 2px solid #A5FFC9;
+    background: white;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
+    flex-direction: column;
+    padding: 20px 60px;
 }
+.card-council{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.card-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+}
+.card-room{  
+    font-size: 20px;
+    font-weight: 500;}
+.card-time{
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+}
+.card-reason{
+    font-size: 20;
+}
+
 .card-btn{
     background: none;
-    border: 2px solid red;
-    padding: 1vh 1vw;
-    margin: 0 0.5vw;
+    margin-top:20px ;
     z-index: 4;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+
+}
+.ar-btn{
+    border: none;
+    text-align: center;
+    width: 30%;
+    border: 2px solid black;
 }
